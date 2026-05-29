@@ -31,7 +31,7 @@ fun PantallaInicio(navController: NavController) {
 
         Text(
             text = "Calculadora IMC",
-            fontSize = 30.sp,
+            fontSize = 32.sp,
             fontWeight = FontWeight.Bold
         )
 
