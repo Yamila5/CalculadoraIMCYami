@@ -140,7 +140,7 @@ fun PantallaResultado(
         }
         imc < 30.0 -> {
             categoria = "Sobrepeso"
-            colorTexto = Color.Yellow
+            colorTexto = Color.Blue
         }
         else -> {
             categoria = "Obesidad"
