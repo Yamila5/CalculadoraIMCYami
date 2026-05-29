@@ -132,15 +132,15 @@ fun PantallaResultado(
     when {
         imc < 18.5 -> {
             categoria = "Bajo peso"
-            colorTexto = Color.Magenta
+            colorTexto = Color.Red
         }
         imc < 25.0 -> {
             categoria = "Peso normal"
-            colorTexto = Color.Blue
+            colorTexto = Color.Green
         }
         imc < 30.0 -> {
             categoria = "Sobrepeso"
-            colorTexto = Color.Cyan
+            colorTexto = Color.Yellow
         }
         else -> {
             categoria = "Obesidad"
