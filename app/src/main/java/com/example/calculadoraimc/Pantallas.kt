@@ -156,7 +156,7 @@ fun PantallaResultado(
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            text = "Hola $nombre, tu resultado es:",
+            text = "Hola $nombre, este es tu IMC:",
             fontSize = 25.sp,
             fontWeight = FontWeight.Bold
         )
