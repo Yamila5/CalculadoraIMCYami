@@ -35,7 +35,7 @@ fun PantallaInicio(navController: NavController) {
             fontWeight = FontWeight.Bold
         )
 
-        Spacer(modifier = Modifier.height(20.dp))
+        Spacer(modifier = Modifier.height(25.dp))
 
         TextField(
             value = nombre,
